@@ -1,0 +1,47 @@
+*:after, *:before { 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Merriweather', serif;
+}
+.container{
+    display:flex;
+}
+.jumbotron{
+    margin-bottom:0;
+}
+/*.jumboAlign{
+    margin-top:-75px;
+    padding-bottom:0;
+}*/
+#top{
+    font-size:25px;
+}
+.contentPhone{
+    margin-left:50px;
+}
+.contentEmail{
+    
+}
+/*using start bootstrap git hub to help with styling*/
+#wrapper{
+    padding-left:0;
+    /* background-color: darkblue; */
+}
+#sidebar-wrapper{ 
+    position: fixed;
+    left:250px;
+    width:100%;
+    height:100%;
+    margin-left:-250px;
+    overflow-y: auto;
+}
+#profSum{
+    margin-bottom: -45px;
+    font-size:18px;
+}
+.titleCards{
+    font-size:25px;
+}
