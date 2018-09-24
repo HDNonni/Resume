@@ -2,6 +2,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+   
 }
 body{
     font-family: 'Merriweather', serif;
@@ -59,4 +60,10 @@ header{
 .btn-right{
  position: absolute;
  right:0;
+}
+ /* style sheet for "letter" printing */
+ @media print {  
+    html{
+        font-size:14px;
+    }
 }
