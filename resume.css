@@ -52,7 +52,7 @@ header{
 }
 /*using start bootstrap git hub to help with styling*/
 #wrapper{
-    padding-left:0;
+    padding-left:0 auto;
     border:2px solid black;
     background-color: #f1f1f1;
     -webkit-box-shadow: 3px 4px 17px 1px rgba(0,0,0,0.75);
@@ -98,7 +98,18 @@ header{
     margin-top:30px;
     font-style: oblique;
     font-weight: bold;
+    
 }
 .gitLink:hover{
     font-size:25px;
+    transition:0.5s;
+}
+.mainPadding{
+    padding:0 ;
+}
+.contactEmail a{
+    color:black;
+}
+.contactEmail a:hover{
+    color:blue;
 }
