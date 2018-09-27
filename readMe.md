@@ -5,10 +5,12 @@ relevant online education only
 big projects and make sure they work
 current and recent employment
 
-how much I know
+how much I know(somewhat)
 
 make interactive?
 
-change background
+change background (done)
 
-fit to one page
+fit to one page (done)
+
+try to addd some js/ jquery 
