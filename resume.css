@@ -24,7 +24,7 @@ body{
 }
 header{
     text-align: center;
-    margin-top:-25px;
+    margin-top:-35px;
 }
 .name{
     text-align: center;
@@ -69,7 +69,7 @@ header{
     overflow-y: auto;
 }
 #profSum{
-    margin-bottom: -45px;
+    margin-bottom: -60px;
     font-size:18px;
 }
 .titleCards{
@@ -95,7 +95,7 @@ header{
 }
 .gitLink{
     text-align: center;
-    margin-top:30px;
+    margin-top:18px;
     font-style: oblique;
     font-weight: bold;
     
@@ -111,5 +111,11 @@ header{
     color:black;
 }
 .contactEmail a:hover{
+    color:blue;
+}
+#portfolio a{
+    color: black;
+}
+#portfolio a:hover{
     color:blue;
 }
